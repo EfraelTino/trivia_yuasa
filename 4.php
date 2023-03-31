@@ -33,7 +33,7 @@ $dato = $_GET['dato'];
     }
 
     .contenedor-4 {
-        background: url(img/fondo-33.jpg);
+        background: url(img/vertical_background.jpg);
         background-size: cover;
         position: fixed;
         height: 100%;
@@ -169,7 +169,7 @@ $dato = $_GET['dato'];
     }
 
     .swal2-popup {
-        background-image: url('img/fondo-33.png');
+        background-image: url(img/fondo-33.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -231,6 +231,17 @@ $dato = $_GET['dato'];
     }
 
     @media (min-width:576px) {
+        .contenedor-4{
+        background: url(img/fondo-33.jpg);
+        background-size: cover;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
         .my_row {
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows: 1fr;

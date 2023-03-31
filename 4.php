@@ -25,6 +25,7 @@ $dato = $_GET['dato'];
     }
 
     body {
+        /* overflow: hidden; */
         margin: 0;
         padding: 0;
         min-height: 100%;
@@ -33,12 +34,13 @@ $dato = $_GET['dato'];
 
     .contenedor-4 {
         background: url(img/fondo-33.jpg);
+        background-size: cover;
         position: fixed;
         height: 100%;
         width: 100%;
+        background-repeat: no-repeat;
         display: flex;
         align-items: center;
-        background-repeat: no-repeat;
         justify-content: center;
     }
 

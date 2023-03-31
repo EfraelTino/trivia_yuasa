@@ -25,7 +25,7 @@ $dato = $_GET['dato'];
     }
 
     .childs-4 {
-        background-image: url(img/FONDO.png);
+        background-image: url(img/fondo-33.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

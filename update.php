@@ -13,15 +13,13 @@
     $puntos= $_POST['puntos'];
     $premio= $_POST['premio'];  
 
-    $query = "select * from clientes where id = ' $id '";
-    // $query = "select * from clientestri where id = ' $id '";
+    $query = "select * from clientestri where id = ' $id '";
     $consulta = mysqli_query($dblink, $query);
     $array = mysqli_fetch_array($consulta); 
  
    
     if($array['id'] === $id){
-        // $stmt = $dblink->prepare("UPDATE `clientestri` SET 
-        $stmt = $dblink->prepare("UPDATE `clientes` SET 
+        $stmt = $dblink->prepare("UPDATE `clientestri` SET 
         `nombre` = ?,
         `cedula` = ?,
         `telefono` = ?,

@@ -15,33 +15,31 @@ $puntos = $_GET['puntos'];
 </head>
 
 <body>
-    <div class="felicitaciones justify-content-center d-flex align-items-end">
-        <div class="parent-puntajes py-5">
-            <div class="container my-3">
-                <div class="row mx-2">
-                    <div class="col-12 m-0 p-0 container align-self-center ">
-                        <div class="row">
-                            <div class="col-12 col-lg-6 d-none d-lg-flex  "><img src="img/yuasa-novelbat-logo-pequenio.png" alt="" width="620px" class="logo-pequenio"></div>
-
-                            <div class="col-12 d-flex justify-content-center text-white mt-5 ">
-                                <h1 class="text-felicitaciones" id="titulo">
-                                    ¡FELICITACIONES!
-                                </h1>
-                            </div>
-                            <div class="col-12 col-md-6  d-flex justify-content-center " ;>
-                                <div class="total_puntaje" id="contenedor">
-                                    <img src="img/3.png" alt="" class="primero">
-                                    <img src="img/19.png" alt="" class="segundo encima" id="imagen">
-                                    <p class="texto-encima" id="etiqueta">UN TERMO</p>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 d-flex align-items-center justify-content-center justify-content-md-end">
-                                <div class="btn_container_redimir">
-                                    <button class="btn_redimir" id="redimir" onclick="abrir()">
-                                        Redimir premio
-                                    </button>
-                                </div>
-                            </div>
+    <div class="child justify-content-center d-flex align-items-center">
+        <div class="">
+            <div>
+                <div class="row m-0 p-0">
+                    <div class="col-6 col-md-6 align-items-center m-0 p-0 pt-3 cont-logo-yuasa-2"><img src="img/yuasa-novelbat-logo-fondo.png" alt="" class="logo-yuasa">
+                    </div>
+                    <div class="col-6 col-md-6 d-flex align-self-center justify-content-end m-0 p-3 cont-logo-fanalca-2"><img src="img/FANALCA_LOGO.png" alt="" class="logo-fanalca">
+                    </div>
+                </div>
+                <div class="row m-0 p-0">
+                    <div class="col-12 d-flex justify-content-center text-white mt-5 ">
+                        <img src="img/felicitaciones.png" alt="Felicitaciones" class="img-felicitaciones">
+                    </div>
+                    <div class="col-12 col-md-6  d-flex justify-content-center " ;>
+                        <div class="total_puntaje" id="contenedor">
+                            <img src="img/3.png" alt="" class="primero">
+                            <img src="img/19.png" alt="" class="segundo encima" id="imagen">
+                            <p class="texto-encima" id="etiqueta">UN TERMO</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex align-items-center justify-content-center justify-content-md-end">
+                        <div class="btn_container_redimir">
+                            <button class="btn_redimir" id="redimir" onclick="abrir()">
+                                Redimir premio
+                            </button>
                         </div>
                     </div>
                 </div>

@@ -7,8 +7,7 @@
     $id="";
     $dato="1120a";
     
-    $query =mysqli_query($dblink, "SELECT * FROM clientes WHERE usuario = '$usuario' and pass ='$pass'  " ) or die(mysqli_error($dblink));
-    // $query =mysqli_query($dblink, "SELECT * FROM clientestri WHERE usuario = '$usuario' and pass ='$pass'  " ) or die(mysqli_error($dblink));
+    $query =mysqli_query($dblink, "SELECT * FROM clientestri WHERE usuario = '$usuario' and pass ='$pass'  " ) or die(mysqli_error($dblink));
     $row = mysqli_num_rows($query);
         if($row > 0)
         {

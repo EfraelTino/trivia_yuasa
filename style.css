@@ -1,3 +1,6 @@
+body{
+    overflow: auto;
+}
 :root {
     --font-sans: font-family: sans-serif;
     --main-color-red-claro: rgb(229, 0, 19);

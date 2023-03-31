@@ -25,13 +25,14 @@ $dato = $_GET['dato'];
     }
 
     body {
-        /* overflow: hidden; */
         margin: 0;
         padding: 0;
         min-height: 100%;
         box-sizing: border-box;
     }
-
+    .padre{
+        overflow: auto;
+    }
     .contenedor-4 {
         background: url(img/vertical_background.jpg);
         background-size: cover;
@@ -414,6 +415,8 @@ $dato = $_GET['dato'];
 </style>
 
 <body>
+    <div class="padre">
+
     <div class="contenedor-4 py-5">
         <div class="contendor_general">
             <div class="">
@@ -469,6 +472,7 @@ $dato = $_GET['dato'];
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
     <!-- area de programacion -->

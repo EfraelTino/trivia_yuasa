@@ -354,7 +354,7 @@ $dato = $_GET['dato'];
         }
 
         .logo-fanalca-4 {
-            right: 5%;
+            right: 3%;
         }
 
         .img-22 {

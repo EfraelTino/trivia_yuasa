@@ -159,7 +159,7 @@ ul li::before {
 
 /* 4.thml */
 .parent-puntajes {
-    background-image: url(img/FONDO.png);
+    background-image: url(img/FONDO-33.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -248,12 +248,7 @@ ul li::before {
 }
 
 .felicitaciones {
-    background: url(img/fondo-33.jpg);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+
 }
 
 .total_puntaje {
@@ -337,16 +332,15 @@ ul li::before {
 
 /*  */
 .parent-puntajess {
-    background-image: url(img/fondo-33.png);
-    background-repeat: no-repeat;
-    background-position: 0%;
+    background: url(img/FONDO-33.jpg);
     background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0%;
-    height: auto;
-    width: 100vw;
-    left: 0%;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .yuasa-7 {
@@ -446,7 +440,7 @@ ul li::before {
 
 /* 8.html */
 .parent-puntajes {
-    background-image: url(img/fondo-33.png);
+    background-image: url(img/fondo-33.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -643,9 +637,9 @@ ul li::before {
     }
 
     .cont-novelbat .logo-yuasa {
-        position: absolute;
+        position: fixed;
         width: 300px;
-        left: -25%;
+        left: 0%;
     }
 
     .cont-logo-fanalca-2 .logo-fanalca {
@@ -733,7 +727,6 @@ ul li::before {
     }
 
     .cont-novelbat .logo-yuasa {
-        position: absolute;
         width: 350px;
     }
 
@@ -897,7 +890,6 @@ ul li::before {
 
     .cont-novelbat .logo-yuasa {
         width: 450px;
-        left: -20%;
     }
 
     .logo-fanalca {

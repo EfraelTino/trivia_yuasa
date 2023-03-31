@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contenedor-pop-registro">
+        <div class="child justify-content-center  ">
+            <div class="row m-0 p-0">
+
+                <div class="col-6 col-md-6 align-items-center m-0 p-0 pt-3 cont-logo-yuasa-2"><img src="img/yuasa-novelbat-logo-fondo.png" alt=""
+                        class="logo-yuasa">
+                </div>
+                <div class="col-6 col-md-6 d-flex align-self-center justify-content-end m-0 p-3 cont-logo-fanalca-2"><img src="img/FANALCA_LOGO.png" alt=""
+                        class="logo-fanalca">
+                </div>
+                <div class="pt-4 mt-4 pt-sm-0 mt-sm-0">
+                    <div class="col-12 d-flex justify-content-center m-0 p-0">
+                        <img src="img/logo-recargate.png" alt="" class="logo-recargate-2">
+                    </div>
+                </div>
+            </div>
+            <div class="parent-form py-5">
+                <div class="container ">
+                    <div class="row mx-2">
+
+                        <div class="col-12 col-sm-10 container align-self-center ">
+                            <form action="ingreso.php" method="POST" enctype="multipart/form-data">
+                                <div class="row">
+                                    <div class="form-group col-sm-5 d-sm-flex flex-sm-column">
+                                        <label for="" class="label-title py-1">*USUARIO</label>
+                                        <input class="form-control" placeholder="Usuario" required type="text" id="usuario" name="usuario">
+                                    </div>
+                                    <div class="form-group col-sm-3 d-sm-flex flex-sm-column">
+                                        <label for="" class="label-title py-1">*CONTRASEÑA</label>
+                                        <input class="form-control" placeholder="Contraseña" required type="password" id="pass" name="pass">
+                                    </div>
+                                    <div class="col-sm-3 d-none d-sm-flex align-items-end">
+                                        <button class="btn-ingresar" px-1">INGRESAR</button>
+                                    </div>
+                                </div>
+                                <div class="form-group col-12">
+                                    <div class="form-check py-1">
+                                        <input class="form-check-input mycheck" type="checkbox">
+                                        <label class="form-check-label label-title">
+                                            RECORDAR DATOS
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4  text-center d-sm-none">
+                                    <button class="btn-ingresar ">INGRESAR</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

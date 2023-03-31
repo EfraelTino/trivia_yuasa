@@ -1,0 +1,998 @@
+:root {
+    --font-sans: font-family: sans-serif;
+    --main-color-red-claro: rgb(229, 0, 19);
+    --main-color-red-bajo: rgb(191, 13, 0);
+    --main-color-black: black;
+    --main-color-white: white;
+}
+
+.contenedor-pop-registro {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.child {
+    background-image: url(img/FONDO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0%;
+    height: 100vh;
+    width: 100vw;
+    left: 0%;
+    /* transform: translate(-50%, -50%); */
+}
+
+.childs {
+    background-image: url(img/FONDO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0%;
+    height: 100vh;
+    width: 100vw;
+    left: 0%;
+}
+.text-container {
+    margin: .5rem 0;
+}
+.img_fe{
+    width: 300px;
+}
+.logo-fanalca {
+    width: 200px;
+}
+
+.logo-recargate {
+    width: 300px;
+}
+.childs-4 {
+    background-image: url(img/FONDO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0%;
+    height: auto;
+    width: 100vw;
+    left: 0%;
+    /* transform: translate(-50%, -50%); */
+}
+.text-container-conectate {
+    margin: .5rem 0;
+    font-family: var(--font-sans);
+    font-style: italic;
+    line-height: 1.1rem;
+}
+
+.comienza {
+    font-family: var(--font-sans);
+    font-weight: 900;
+    background-color: rgba(0, 0, 0, .3);
+    border: 2px solid var(--main-color-white);
+    border-radius: 50px;
+    color: var(--main-color-white);
+    padding: .5rem 3rem;
+    font-style: italic;
+    -webkit-text--width: 0px;
+    text-shadow: -1px 0px 5px rgba(250, 255, 94, 0.75);
+}
+
+
+/* 2.html */
+.parent-form {
+    background-color: #231F20;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+
+.form-group .label-title {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-style: italic;
+    color: var(--main-color-white);
+    font-size: .8rem;
+}
+
+.form-group input {
+    border-radius: 50px;
+    font-weight: 800;
+    font-style: italic;
+    border: .01rem solid black;
+    outline: none;
+    text-indent: 10px;
+    font-family: var(--font-sans);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.form-group input::placeholder {
+    font-family: var(--font-sans);
+    color: #C3C3C3;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-style: italic;
+
+}
+
+.form-group input:hover {
+    border: 0.01rem solid var(--main-color-red-claro);
+}
+
+.form-group input:focus {
+    border-color: var(--main-color-red-claro);
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0)inset,
+        0 0 8px rgba(255, 255, 255, 0);
+    outline: none !important;
+}
+
+.btn-ingresar {
+    font-family: var(--font-sans);
+    color: var(--main-color-white);
+    font-style: italic;
+    font-weight: 800;
+    background-color: var(--main-color-red-claro);
+    padding: .5rem 1.5rem;
+    border: 1px solid var(--main-color-white);
+    border-radius: 50px;
+}
+
+/* 3.html */
+.condiciones {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    position: absolute;
+    top: 0%;
+    height: auto;
+    width: 100vw;
+    left: 0%;
+    background: url(img/fondo-33.png);
+}
+
+.teminos-condiciones {
+    font-family: var(--font-sans);
+    font-style: italic;
+    font-weight: 900;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+li {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.2rem;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #FDD62F;
+    font-size: 1.5em;
+    /* margin-left: 0.5em; */
+}
+
+.cont-ingresa .ingresa-trivia {
+    font-family: var(--font-sans);
+    font-weight: 900;
+    background: none;
+    border: none;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+/* 4.thml */
+.parent-puntajes {
+    background-image: url(img/FONDO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0%;
+    height: 100vh;
+    width: 100vw;
+    left: 0%;
+    /* transform: translate(-50%, -50%); */
+}
+
+.logo-pequenio {
+    position: absolute;
+    top: 4%;
+    left: 0;
+}
+
+.logo-fanalca-4 {
+    position: absolute;
+    top: 4%;
+}
+
+.logo-recargate-4 {
+    width: 300px;
+
+}
+
+.contenedor_preguntas {
+    position: relative;
+}
+
+.numero-encima {
+    position: absolute;
+    top: 12%;
+    left: 8%;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.pregunta-encima {
+    position: absolute;
+    top: 52%;
+    left: 8%;
+    font-size: .7rem;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+    padding-right: 3rem !important;
+    -webkit-text--width: 0px;
+    text-shadow: -2px 0px 5px rgba(250, 255, 94, 0.75);
+}
+
+.tiempo-encima {
+    position: absolute;
+    top: 35%;
+    left: 87%;
+    font-size: .8rem;
+    color: white;
+    font-weight: 900;
+
+}
+
+.img-22 {
+    width: 300px;
+}
+
+.btn_puntajes {
+    background: none;
+    border: none;
+}
+
+.btn_puntajes .numero_respuesta {
+    color: white;
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 1rem;
+    font-style: italic;
+
+}
+
+.felicitaciones {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(img/4.png);
+}
+
+.total_puntaje {
+    position: relative;
+}
+
+
+.total_puntaje h2 {
+    font-size: 5rem;
+    color: white;
+    font-weight: 800;
+    font-style: italic;
+
+}
+
+.btn_puntos {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 70px;
+    font-size: 3rem;
+    padding: 0 5rem;
+    font-weight: 700;
+    font-style: 800;
+    font-style: italic;
+    color: white;
+    -webkit-text--width: 0px;
+    text-shadow: -2px 0px 5px rgba(250, 255, 94, 0.75);
+}
+
+/* 7.html */
+.primero {
+    width: 300px;
+}
+
+.texto-encima {
+    position: absolute;
+    top: 72%;
+    left: 25%;
+    font-size: 2rem;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.text-felicitaciones {
+    font-weight: 700;
+    font-style: italic;
+    -webkit-text--width: 0px;
+    text-shadow: -2px 0px 5px rgba(250, 255, 94, 0.75);
+    padding: 1rem 0rem;
+}
+
+.encima {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    display: block;
+    z-index: 1;
+}
+
+.btn_container_redimir {
+    border-radius: 50px;
+    border: 2px solid white;
+    display: grid;
+}
+
+.btn_redimir {
+    margin: 10px;
+    border-radius: 50px;
+    background-color: white;
+    color: var(--main-color-red-claro);
+    font-weight: 800;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-sans);
+    padding: 0px 3rem;
+    box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*  */
+.parent-puntajess {
+    background-image: url(img/fondo-33.png);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0%;
+    height: auto;
+    width: 100vw;
+    left: 0%;
+    /* transform: translate(-50%, -50%); */
+}
+
+.yuasa-7 {
+    width: 300px;
+}
+
+.ingresa_datos {
+    font-family: var(--font-sans);
+    font-weight: 900;
+    font-style: italic;
+    -webkit-text-fill-color: #000000;
+    -webkit-text-stroke-width: 1.4px;
+    -webkit-text-stroke-color: #ffffff;
+    -webkit-text-fill-color: #000000;
+}
+
+.para_redimir {
+    border-radius: 70px;
+    font-size: 2.5rem;
+    padding: 0 1rem;
+    font-weight: 900;
+    font-style: 800;
+    font-style: italic;
+    color: white;
+    -webkit-text--width: 0px;
+    text-shadow: -1px 0px 5px rgba(250, 255, 94, 0.75);
+}
+
+.inputControl {
+    padding: 1rem 0;
+    border: .01rem solid #BEBEBE;
+    outline: none;
+    text-indent: 10px;
+    font-family: var(--font-sans);
+    font-weight: 400;
+    border-radius: 2rem;
+    font-size: 16px;
+}
+
+.inputControl::placeholder {
+    font-family: var(--font-sans);
+    color: #686868;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 2px;
+
+}
+
+.inputControl:hover {
+    border: 0.01rem solid #FF2E22;
+}
+
+.inputControl:focus {
+    border-color: #FF2E22;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0)inset,
+        0 0 8px rgba(255, 255, 255, 0);
+    outline: none !important;
+}
+
+.mycheck {
+    font-size: 1.5rem;
+}
+
+.labelAcepto {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+/* 8.html */
+.parent-puntajes {
+    background-image: url(img/fondo-33.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0%;
+    height: 100vh;
+    width: 100vw;
+    left: 0%;
+    /* transform: translate(-50%, -50%); */
+}
+    .img_felicitaciones{
+        width: 280px;
+    }
+    .text_felicitaciones{
+        -webkit-text--width: 0px;
+        font-weight: 700;
+        font-style: italic;
+        text-shadow: -1px 0px 5px rgba(250, 255, 94, 0.75);
+    }
+    .datos-registrados{
+        font-style: italic;
+    }
+.premio{
+    width: 280px;
+}
+/* 9.HTML */
+.parent-9 {
+    background-image: url(img/FONDO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0%;
+    height: auto;
+    width: 100vw;
+    left: 0%;
+    /* transform: translate(-50%, -50%); */
+}
+
+.trapezoide {
+    background-color: #E50013;
+    transform: skew(-25deg);
+    transform-origin: center;
+    box-shadow: 12px 11px 1px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 12px 11px 1px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 12px 11px 1px 0px rgba(0, 0, 0, 0.75);
+}
+
+.trapezoide h2 {
+    transform: skew(25deg);
+    transform-origin: center;
+}
+
+.estos_son {
+    color: #E50013;
+    font-style: italic;
+    font-size: 1.1rem;
+    font-weight: 900;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+    -webkit-text-fill-color: #E50013;
+    line-height: 16px;
+}
+
+.trapezoide .grandes_ganadores {
+    font-family: var(--font-sans);
+    font-weight: 900;
+    font-size: 1.4rem;
+    font-style: italic;
+    -webkit-text--width: 1px;
+    -webkit-text--color: #ffffff;
+    -webkit-text-fill-color: #ffffff;
+    line-height: 16px;
+}
+
+.border-vertical {
+    border-right: 2px solid white;
+}
+
+.border-vertical-3 {
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+}
+
+.border-vertical-4 {
+    border-top: 2px solid white;
+}
+.img_rombo{
+    width: 280px;
+}
+.total_ganadores{
+    position: relative;
+}
+.region{
+    font-style: italic;
+    font-weight: 800;
+    font-family: var(--font-sans);
+}
+.texto-gandor{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 76%;
+    left: 15%;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+}
+.texto-apellido{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 86%;
+    left: 30%;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+}
+.imagen-fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.imagen-fondo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+.container_logo_lr{
+    position: relative;
+}
+.logo-sd{
+    position: absolute;
+    bottom: 0;
+    right: -10%;
+}
+@media (min-width:576px) {
+    .texto-encima {
+        left: 20%;
+    }
+
+    .btn_redimir {
+        font-size: 2rem;
+    }
+
+    .trapezoide .estos_son {
+        -webkit-text--width: 5px;
+        font-size: 1.6rem;
+        line-height: 18px;
+    }
+
+    .trapezoide .grandes_ganadores {
+        line-height: 50px;
+        font-size: 2rem;
+    }
+
+    .parent-puntajes {
+        height: 100vh;
+    }
+
+    .img-22 {
+        width: 530px;
+    }
+
+    .numero-encima {
+        top: 30%;
+        left: 8%;
+    }
+    .texto-gandor{
+        top: 76%;
+        left: 32%;
+    }
+    .texto-apellido{
+        top: 86%;
+        left: 40%;
+        font-size: 1.3rem;
+    }
+    .pregunta-encima {
+        top: 52%;
+        left: 8%;
+        font-size: 1.2rem;
+        padding-right: 5rem !important;
+    }
+    .img_fe{
+        width: 520px;
+    }
+    .border-vertical {
+        border-right: 2px solid white;
+
+    }
+
+
+
+    .border-vertical-3 {
+        border-right: 2px solid white;
+        border-top: none;
+    }
+
+    .border-vertical-4 {
+        border-top: none;
+    }
+
+    .yuasa-7 {
+        width: 400px;
+    }
+
+    .tiempo-encima {
+        top: 38%;
+        left: 87%;
+        font-size: 1.3rem;
+    }
+
+    .trapezoide {
+        padding: 1rem 4rem !important;
+    }
+}
+
+@media (min-width:768px) {
+
+    .text-container-conectate,
+    .comienza {
+        font-size: 1.5rem;
+    }
+
+    .logo-fanalca {
+        width: 200px;
+    }
+
+    .logo-recargate-4 {
+        width: 440px;
+    }
+
+    .logo-recargate {
+        width: 540px;
+    }
+
+    .logo-yuasa {
+        width: 540px;
+        position: absolute;
+        left: 0;
+        top: 5%;
+    }
+
+    .text-container-conectate {
+        line-height: 1.5rem;
+    }
+
+    .teminos-condiciones {
+        font-size: 4rem;
+
+    }
+    .ingresa_datos {
+        font-size: 2rem;
+        -webkit-text-stroke-width: 1.4px;;
+    }
+    .img-22 {
+        width: 700px;
+    }
+    .parent-9{
+        height: 100vh;
+    }
+    .numero-encima {
+        top: 25%;
+        left: 7%;
+        font-size: 2rem;
+    }
+    .texto-gandor{
+        top: 76%;
+        left: 20%;
+    }
+    .texto-apellido{
+        top: 86%;
+        left: 20%;
+        font-size: 1.3rem;
+    }
+    .img_fe{
+        width: 700px;
+    }
+    .pregunta-encima {
+        top: 55%;
+        left: 8%;
+        font-size: 1.5rem;
+        padding-right: 5rem !important;
+    }
+
+    .tiempo-encima {
+        top: 36%;
+        left: 87%;
+        font-size: 1.8rem;
+    }
+
+    .cont-ingresa .ingresa-trivia {
+        font-size: 1.2rem;
+    }
+
+    svg {
+        transform: scale(3);
+    }
+    .premio{
+        width: 380px;
+    }
+    .parent-puntajess {
+        height: 100vh;
+    }
+
+    .para_redimir {
+        padding: 0 3rem;
+    }
+
+    .yuasa-7 {
+        width: 600px;
+    }
+
+    .btn_puntos {
+        font-size: 5rem;
+        padding: 0 10rem;
+    }
+
+    .btn_redimir {
+        font-size: 1.5rem;
+        padding: .5rem 3.5rem;
+    }
+
+    .trapezoide .estos_son {
+        -webkit-text-stroke-width: 2px;
+        font-size: 2rem;
+    }
+
+    .trapezoide .grandes_ganadores {
+        font-size: 2.9rem;
+    }
+    .border-vertical-2{
+        border-right: 2px solid white;
+    }
+    .trapezoide .grandes_ganadores {
+        -webkit-text--width: 6px;
+    }
+
+    .text-felicitaciones {
+        font-size: 5rem;
+        padding: 1rem 0rem;
+    }
+}
+
+@media (min-width:1200px) {
+
+    .text-container-conectate,
+    .comienza {
+        font-size: 2rem;
+    }
+
+    .text-container-conectate {
+        line-height: 2.4rem;
+    }
+
+    .logo-yuasa {
+        width: 640px;
+    }
+
+    .logo-recargate {
+        width: 640px;
+    }
+
+    .comienza {
+        padding: .5rem 4rem;
+    }
+
+    li {
+        line-height: 38px;
+    }
+    .parent-9 {
+        height: auto;
+      }
+    .img-22 {
+        width: 920px;
+    }
+    .img_rombo{
+        width: 480px;
+    }
+    .numero-encima {
+        top: 28%;
+        left: 7%;
+        font-size: 2.5rem;
+    }
+
+    .pregunta-encima {
+        top: 65%;
+        left: 8%;
+        font-size: 1.8rem;
+        padding-right: 4rem !important;
+    }
+
+    .tiempo-encima {
+        top: 35%;
+        left: 87%;
+        font-size: 2.3rem;
+    }
+    .texto-gandor{
+        font-size: 2rem;
+        top: 76%;
+        left:12%;
+    }
+    .texto-apellido{
+        font-size: 2rem !important  ;
+        top: 87%;
+        left: 20%;
+    }
+    .cont-ingresa .ingresa-trivia {
+        font-size: 2rem;
+    }
+
+    svg {
+        transform: scale(3);
+    }
+
+    .parent-puntajes {
+        height: 100%;
+    }
+    .parent-puntajess{
+        height: auto;
+    }
+    .premio{
+        width: 480px;
+    }
+    .img_felicitaciones{
+        width: 520px;
+    }
+    .text_felicitaciones{
+        font-size: 5rem;
+    }
+    .datos-registrados{
+        font-size: 1.8rem;
+        font-weight: 500;
+        padding: 1rem;
+    }
+    .primero {
+        width: 440px;
+    }
+    .ingresa_datos {
+        padding: 20px 0 0 0;
+        margin: 0;
+        font-size: 3rem;
+        -webkit-text-stroke-width: 1.4px;;
+    }
+    .encima {
+        top: 40%;
+        left: 40%;
+    }
+
+    .texto-encima {
+        top: 70%;
+        left: 13%;
+        font-size: 3.5rem;
+    }
+
+    .para_redimir {
+        padding: 0 5rem;
+        font-size: 4rem;
+    }
+    .region{
+        font-size: 2rem;
+    }
+    .btn_redimir {
+        padding: .5rem 10rem;
+    }
+}
+
+@media (min-width:1500px) {
+    .texto-encima {
+        top: 70%;
+        left: 14%;
+    }
+
+    .logo-recargate {
+        width: 740px;
+    }
+
+    .trapezoide .estos_son {
+        -webkit-text-stroke-width: 2px;
+        font-size: 2.5rem;
+    }
+
+    .trapezoide .grandes_ganadores {
+        font-size: 3.5rem;
+    }
+
+    .trapezoide .grandes_ganadores {
+        -webkit-text--width: 6px;
+    }
+
+    .img-22 {
+        width: 1200px;
+    }
+    .img_felicitaciones{
+        width: 680px;
+    }
+    .text_felicitaciones{
+        font-size: 5rem;
+    }
+    .numero-encima {
+        top: 28%;
+        left: 7%;
+        font-size: 3rem;
+    }
+    .parent-puntajess{
+        height: 100vh;
+    }
+
+    .cont-ingresa .ingresa-trivia {
+        font-size: 2rem;
+    }
+    .pregunta-encima {
+        top: 65%;
+        left: 8%;
+        font-size: 2.3rem;
+        padding-right: 5rem !important;
+    }
+    .premio{
+        width: 580px;
+    }
+    .tiempo-encima {
+        top: 40%;
+        left: 87%;
+        font-size: 2.5rem;
+    }
+
+    .childs-4{
+        height: 100vh;
+    }
+    .parent-9{
+        height: 100vh;
+    }
+    .texto-gandor{
+        top: 75%;
+        left: 20%;
+        font-size: 2.5rem;
+    }
+
+    .texto-apellido{
+        top: 86%;
+        left: 25%;
+        font-size: 2.5rem !important;
+    }
+
+}

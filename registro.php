@@ -1,0 +1,103 @@
+<?php   
+    $id= $_GET['id'];
+    $puntos= $_GET['puntos'];
+    $premio= $_GET['premio'];  
+?>
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor-pop-registro">
+        <div class="ingresar justify-content-center d-flex align-items-center">
+            <div class="parent-puntajess ">
+                <div class="container ">
+                    <div class="row mx-2">
+                        <div class="col-12 m-0 p-0 container align-self-center ">
+                            <div class="row">
+                                <div class="col-12 col-sm-6  d-flex justify-content-start  align-items-center"><img
+                                        src="img/logo-recargate.png" alt="" width="220px" class="">
+                                </div>
+                                <div class="col-12 col d-flex justify-content-center "><img
+                                        src="img/yuasa-novelbat-logo-curavdo-pequenio.png" alt="" class="yuasa-7">
+                                </div>
+                                <div class="col-12 col-md-12  d-flex justify-content-center ">
+                                    <h3 class="text-black ingresa_datos text-center">INGRESA TUS DATOS</h3>
+                                </div>
+                                <div class="col-12 col-md-12  d-flex justify-content-center ">
+                                    <h2 class="text-white para_redimir text-center">PARA REDIMIR TU PREMIO</h2>
+                                </div>
+                                <form action="update.php" method="POST" enctype="multipart/form-data">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6 my-1 ">
+                                            <input type="text" class="form-control inputControl"
+                                                placeholder="*Nombre completo" id="nombre" name="nombre">
+                                        </div>
+                                        <div class="col-12 col-sm-6 my-1">
+                                            <input type="text" class="form-control   inputControl"
+                                                placeholder="*Cédula" id="cedula" name="cedula">
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-md-2 my-1">
+                                            <input type="text" class="form-control inputControl" placeholder="*Departamento" id="pais" name="pais">
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-md-4 my-1">
+                                            <input type="text" class="form-control  inputControl" placeholder="*Móvil" id="movil" name="movil">
+                                        </div>
+                                        <div class="col-12 col-sm-6 my-1">
+                                            <input type="text" class="form-control  inputControl" placeholder="*Ciudad" id="ciudad" name="ciudad">
+                                        </div>
+                                        <div class="col-12 col-sm-6 my-1">
+                                            <input type="text" class="form-control inputControl"
+                                                placeholder="*Correo electrónico" id="correo" name="correo">
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-md-3 my-1 ">
+                                            <input type="text" class="form-control  inputControl"
+                                                placeholder="*Dirección" id="localidad" name="localidad">
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-md-3 my-1">
+                                            <input type="text" class="form-control inputControl" placeholder="*Barrio" id="barrio" name="barrio">
+                                        </div>
+                                        <div class="form-group col-12 ">
+                                            <div class="form-check d-flex align-items-center my-4">
+                                                <input
+                                                    class="form-check-input form-check-input-lg mycheck d-flex align-items-center mr-1 bg-danger"
+                                                    type="checkbox" value="" id="defaultCheck1">
+                                                <label class="form-check-label labelAcepto text-white mx-2">
+                                                    Sí, autorizo el tratamiento de mis datos personales
+                                                </label>
+                                            </div>
+                                            <input type="text" id="id" name="id"  value="<?php echo $id; ?>" hidden> 
+                                            <input type="text" id="dato" name="dato" value="<?php echo $dato; ?>" hidden>
+                                            <input type="text" id="puntos" name="puntos" value="<?php echo $puntos; ?>" hidden>
+                                            <input type="text" id="premio" name="premio" value="<?php echo $premio; ?>" hidden>
+                                            <div class="d-flex justify-content-center col-12">
+                                                <div class="btn_container_redimir">
+                                                    <button class="btn_redimir" type="submit">
+                                                        ACEPTAR
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>    

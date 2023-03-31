@@ -38,6 +38,7 @@ $dato = $_GET['dato'];
         width: 100%;
         display: flex;
         align-items: center;
+        background-repeat: no-repeat;
         justify-content: center;
     }
 

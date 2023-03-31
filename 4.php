@@ -7,7 +7,7 @@ $dato = $_GET['dato'];
 
 <head>
     <meta charset="UTF-8">
-    <meta name='viewport' content='width=device-width, initial-scale=0.5, maximum-scale=1.0, user-scalable=0' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Juego de preguntas</title>
     <link rel="icon" type="image/png" href="imagenes/favicon.ico" />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.0/dist/sweetalert2.all.min.js"></script>
@@ -25,7 +25,6 @@ $dato = $_GET['dato'];
     }
 
     body {
-        /* overflow: hidden; */
         margin: 0;
         padding: 0;
         min-height: 100%;
@@ -34,7 +33,6 @@ $dato = $_GET['dato'];
 
     .contenedor-4 {
         background: url(img/fondo-33.jpg);
-        background-size: cover;
         position: fixed;
         height: 100%;
         width: 100%;

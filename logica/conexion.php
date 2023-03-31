@@ -4,7 +4,7 @@
    $user = "root";
 //    $pass = "divino.1";
    $pass = "";
-   $database = "clientestri";
+   $database = "yuasabd";
    $dblink = mysqli_connect($host, $user, $pass, $database);
  
    

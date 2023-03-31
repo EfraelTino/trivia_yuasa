@@ -1,5 +1,8 @@
 body{
     overflow: auto;
+    background-image: url(img/fondo-33.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
 :root {
     --font-sans: font-family: sans-serif;
@@ -9,19 +12,6 @@ body{
     --main-color-white: white;
 }
 
-
-.child {
-    background-image: url(img/fondo-33.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: fixed;
-    top: 0%;
-    height: 100%;
-    width: 100%;
-    left: 0%;
-    /* transform: translate(-50%, -50%); */
-}
 
 .text-container {
     margin: .5rem 0;

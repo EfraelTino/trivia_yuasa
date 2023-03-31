@@ -15,15 +15,13 @@ $puntos = $_GET['puntos'];
 </head>
 
 <body>
-<div class="child justify-content-center d-flex align-items-center d-sm-block">
+    <div class="child justify-content-center d-flex align-items-center d-sm-block">
         <div class="">
             <div>
-            <div class="row m-0 p-0">
-                    <div class="col-6 col-md-6 align-items-center m-0 p-0 pt-3 cont-logo-yuasa-2"><img
-                            src="img/yuasa-novelbat-logo-fondo.png" alt="" class="logo-yuasa">
+                <div class="row m-0 p-0">
+                    <div class="col-6 col-md-6 align-items-center m-0 p-0 pt-3 cont-logo-yuasa-2"><img src="img/yuasa-novelbat-logo-fondo.png" alt="" class="logo-yuasa">
                     </div>
-                    <div
-                        class="col-6 col-md-6 d-flex align-self-center justify-content-end m-0 p-3 cont-logo-fanalca-2">
+                    <div class="col-6 col-md-6 d-flex align-self-center justify-content-end m-0 p-3 cont-logo-fanalca-2">
                         <img src="img/FANALCA_LOGO.png" alt="" class="logo-fanalca">
                     </div>
                 </div>
@@ -38,12 +36,15 @@ $puntos = $_GET['puntos'];
                             <p class="texto-encima" id="etiqueta">UN TERMO</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 d-flex align-items-center justify-content-center justify-content-md-end">
+                    <div class="col-12 col-md-6 d-flex align-items-center justify-content-center justify-content-md-center">
                         <div class="btn_container_redimir">
                             <button class="btn_redimir" id="redimir" onclick="abrir()">
                                 Redimir premio
                             </button>
                         </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-end" style="position: fixed; bottom: 0; right: 0%;">
+                        <img src="img/logo-recargate.png" alt="" width="280px">
                     </div>
                 </div>
             </div>

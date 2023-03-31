@@ -15,13 +15,16 @@ $puntos = $_GET['puntos'];
 </head>
 
 <body>
-    <div class="child justify-content-center d-flex align-items-center">
+<div class="child justify-content-center d-flex align-items-center d-sm-block">
         <div class="">
             <div>
-                <div class="row m-0 p-0">
-                    <div class="col-6 col-md-6 align-items-center m-0 p-0 pt-3 cont-logo-yuasa-2"><img src="img/yuasa-novelbat-logo-fondo.png" alt="" class="logo-yuasa">
+            <div class="row m-0 p-0">
+                    <div class="col-6 col-md-6 align-items-center m-0 p-0 pt-3 cont-logo-yuasa-2"><img
+                            src="img/yuasa-novelbat-logo-fondo.png" alt="" class="logo-yuasa">
                     </div>
-                    <div class="col-6 col-md-6 d-flex align-self-center justify-content-end m-0 p-3 cont-logo-fanalca-2"><img src="img/FANALCA_LOGO.png" alt="" class="logo-fanalca">
+                    <div
+                        class="col-6 col-md-6 d-flex align-self-center justify-content-end m-0 p-3 cont-logo-fanalca-2">
+                        <img src="img/FANALCA_LOGO.png" alt="" class="logo-fanalca">
                     </div>
                 </div>
                 <div class="row m-0 p-0">

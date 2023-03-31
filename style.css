@@ -641,7 +641,9 @@ ul li::before {
         width: 300px;
         left: 0%;
     }
-
+    .img-felicitaciones {
+        width: 580px;
+    }
     .cont-logo-fanalca-2 .logo-fanalca {
         width: 180px;
     }
@@ -763,7 +765,9 @@ ul li::before {
     .parent-9 {
         height: 100vh;
     }
-
+    .img-felicitaciones {
+        width: 680px;
+    }
     .numero-encima {
         top: 25%;
         left: 7%;
@@ -902,7 +906,9 @@ ul li::before {
         font-size: 1.8rem;
         padding-right: 4rem !important;
     }
-
+    .img-felicitaciones {
+        width: 720px;
+    }
     .tiempo-encima {
         top: 26%;
         font-size: 4rem;
